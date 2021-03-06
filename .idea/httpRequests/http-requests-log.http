@@ -1,0 +1,9 @@
+POST http://localhost:80/prenotazioni/prenota.php
+Content-Type: application/x-www-form-urlencoded
+
+codice=BGTLSN71H19B157G&giorno=2021-01-01
+
+<> 2021-03-06T125043.404.html
+
+###
+
