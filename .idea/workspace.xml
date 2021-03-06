@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aded7275-d6eb-4dd2-8f1a-2bf18e68f6f8" name="Default Changelist" comment="creato file progetto">
+    <list default="true" id="aded7275-d6eb-4dd2-8f1a-2bf18e68f6f8" name="Default Changelist" comment="add other file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prenota.php" beforeDir="false" afterPath="$PROJECT_DIR$/prenota.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615022997877</updated>
-      <workItem from="1615022998964" duration="5811000" />
+      <workItem from="1615022998964" duration="6675000" />
     </task>
     <task id="LOCAL-00001" summary="creato file">
       <created>1615023744267</created>
@@ -76,7 +75,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615023915526</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="connection to db">
+      <created>1615029511605</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615029511605</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add other file">
+      <created>1615029844981</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615029844981</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +109,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="creato file" />
     <MESSAGE value="creato file progetto" />
-    <option name="LAST_COMMIT_MESSAGE" value="creato file progetto" />
+    <MESSAGE value="connection to db" />
+    <MESSAGE value="add other file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add other file" />
   </component>
 </project>
