@@ -26,5 +26,5 @@ $stmt = $pdo ->prepare($sql);
 //invio i dati concreti
 $stmt -> execute(['codice_fiscale' => $codice_fiscale, 'giorno' => $data_scelta]);
 
-
-
+header('Location:lista_prenotazioni.php');
+exit(0);

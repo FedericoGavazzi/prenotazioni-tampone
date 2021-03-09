@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aded7275-d6eb-4dd2-8f1a-2bf18e68f6f8" name="Default Changelist" comment="add configuration&#10;add _POST&#10;add webserver configuration">
-      <change afterPath="$PROJECT_DIR$/prenota.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_prenotazioni.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prenota.php" beforeDir="false" afterPath="$PROJECT_DIR$/prenota.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +117,7 @@
       <updated>1615022997877</updated>
       <workItem from="1615022998964" duration="8553000" />
       <workItem from="1615276860798" duration="520000" />
-      <workItem from="1615283697251" duration="4117000" />
+      <workItem from="1615283697251" duration="5996000" />
     </task>
     <task id="LOCAL-00001" summary="creato file">
       <created>1615023744267</created>
@@ -174,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615284370407</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add form for input">
+      <created>1615289066047</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615289066047</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
