@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aded7275-d6eb-4dd2-8f1a-2bf18e68f6f8" name="Default Changelist" comment="add configuration&#10;add _POST&#10;add webserver configuration">
-      <change afterPath="$PROJECT_DIR$/lista_prenotazioni.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prenota.php" beforeDir="false" afterPath="$PROJECT_DIR$/prenota.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista_prenotazioni.php" beforeDir="false" afterPath="$PROJECT_DIR$/lista_prenotazioni.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,8 +87,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="HTTP Request.rest-api#1">
+  <component name="RunManager" selected="PHP Script.lista_prenotazioni.php">
     <configuration name="rest-api#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="lista_prenotazioni.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/lista_prenotazioni.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 7.4.10" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
       <method v="2" />
     </configuration>
     <configuration name="prenota.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/prenota.php">
@@ -102,6 +109,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.lista_prenotazioni.php" />
         <item itemvalue="HTTP Request.rest-api#1" />
         <item itemvalue="PHP Script.prenota.php" />
       </list>
@@ -118,6 +126,9 @@
       <workItem from="1615022998964" duration="8553000" />
       <workItem from="1615276860798" duration="520000" />
       <workItem from="1615283697251" duration="5996000" />
+      <workItem from="1615290671051" duration="32000" />
+      <workItem from="1615291256865" duration="2000" />
+      <workItem from="1615557326322" duration="2755000" />
     </task>
     <task id="LOCAL-00001" summary="creato file">
       <created>1615023744267</created>
@@ -182,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615289066047</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add php file for show list of prenotations">
+      <created>1615290693811</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1615290693811</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +228,7 @@
     <MESSAGE value="add configuration&#10;add _POST&#10;add webserver configuration" />
     <MESSAGE value="http post" />
     <MESSAGE value="add form for input" />
-    <option name="LAST_COMMIT_MESSAGE" value="add form for input" />
+    <MESSAGE value="add php file for show list of prenotations" />
+    <option name="LAST_COMMIT_MESSAGE" value="add php file for show list of prenotations" />
   </component>
 </project>
