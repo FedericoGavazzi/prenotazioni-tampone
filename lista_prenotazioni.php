@@ -31,10 +31,3 @@ while($row = $stmt->fetch(PDO::FETCH_ASSOC)){
           </tr>";
 }
 echo '</table>';
-
-
-
-echo "
-<table>
-    <td></td>
-</table>";

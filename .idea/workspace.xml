@@ -128,7 +128,7 @@
       <workItem from="1615283697251" duration="5996000" />
       <workItem from="1615290671051" duration="32000" />
       <workItem from="1615291256865" duration="2000" />
-      <workItem from="1615557326322" duration="2755000" />
+      <workItem from="1615557326322" duration="3240000" />
     </task>
     <task id="LOCAL-00001" summary="creato file">
       <created>1615023744267</created>
@@ -200,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615290693811</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add lista_prenotazioni.php table in html">
+      <created>1615560571657</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1615560571657</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +236,7 @@
     <MESSAGE value="http post" />
     <MESSAGE value="add form for input" />
     <MESSAGE value="add php file for show list of prenotations" />
-    <option name="LAST_COMMIT_MESSAGE" value="add php file for show list of prenotations" />
+    <MESSAGE value="add lista_prenotazioni.php table in html" />
+    <option name="LAST_COMMIT_MESSAGE" value="add lista_prenotazioni.php table in html" />
   </component>
 </project>
