@@ -26,8 +26,9 @@ CREATE TABLE `prenotazioni` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `codice_fiscale` varchar(16) NOT NULL,
   `giorno` date NOT NULL,
+  `codice_prenotazione` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -36,7 +37,7 @@ CREATE TABLE `prenotazioni` (
 
 LOCK TABLES `prenotazioni` WRITE;
 /*!40000 ALTER TABLE `prenotazioni` DISABLE KEYS */;
-INSERT INTO `prenotazioni` VALUES (1,'BGTLSN71H19B157G','2021-01-01'),(4,'hgbf','2021-02-08'),(5,'hgbf','2021-02-08'),(6,'eccoilcod','2021-01-29'),(7,'sad','2021-03-03'),(12,'nuovocodice','2021-01-15'),(13,'COD394FJFJ334','2020-03-13'),(14,'Cfffe334','2020-03-13'),(15,'testadata','2021-03-18'),(16,'testadata2','2021-03-03');
+INSERT INTO `prenotazioni` VALUES (1,'BGTLSN71H19B157G','2021-01-01',10525154),(4,'hgbf','2021-02-08',555632),(5,'hgbf','2021-02-08',746767),(6,'eccoilcod','2021-01-29',3543134),(7,'sad','2021-03-03',67796),(12,'nuovocodice','2021-01-15',84453),(13,'COD394FJFJ334','2020-03-13',1),(14,'Cfffe334','2020-03-13',2),(15,'testadata','2021-03-18',33),(16,'testadata2','2021-03-03',6),(17,'testcodicepren','2021-03-02',946570);
 /*!40000 ALTER TABLE `prenotazioni` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -49,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-03-13 10:41:44
+-- Dump completed on 2021-03-13 11:31:57
