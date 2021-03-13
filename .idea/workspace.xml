@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aded7275-d6eb-4dd2-8f1a-2bf18e68f6f8" name="Default Changelist" comment="add configuration&#10;add _POST&#10;add webserver configuration">
+      <change afterPath="$PROJECT_DIR$/config.example.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lista_prenotazioni.php" beforeDir="false" afterPath="$PROJECT_DIR$/lista_prenotazioni.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prenota.php" beforeDir="false" afterPath="$PROJECT_DIR$/prenota.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1pNUN3ttOPNhrDepUtlYAkG9pqz" />
@@ -128,7 +136,11 @@
       <workItem from="1615283697251" duration="5996000" />
       <workItem from="1615290671051" duration="32000" />
       <workItem from="1615291256865" duration="2000" />
-      <workItem from="1615557326322" duration="3240000" />
+      <workItem from="1615557326322" duration="3312000" />
+      <workItem from="1615566066806" duration="251000" />
+      <workItem from="1615566670261" duration="185000" />
+      <workItem from="1615621612349" duration="77000" />
+      <workItem from="1615622556508" duration="2159000" />
     </task>
     <task id="LOCAL-00001" summary="creato file">
       <created>1615023744267</created>
@@ -207,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615560571657</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="little changes">
+      <created>1615560647137</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1615560647137</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +256,7 @@
     <MESSAGE value="add form for input" />
     <MESSAGE value="add php file for show list of prenotations" />
     <MESSAGE value="add lista_prenotazioni.php table in html" />
-    <option name="LAST_COMMIT_MESSAGE" value="add lista_prenotazioni.php table in html" />
+    <MESSAGE value="little changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="little changes" />
   </component>
 </project>

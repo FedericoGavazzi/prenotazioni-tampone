@@ -1,15 +1,6 @@
 <?php
-ini_set('display_errors',1);
-ini_set('log_errors',0);
 
-$host = 'localhost';
-$db = 'prenotazioni_tamponi';
-$user = 'root';
-$pass = '';
-$charset = 'utf8';
-
-$dsn = 'mysql:host='.$host.';dbname='.$db;
-$pdo = new PDO($dsn, $user, $pass);
+include_once 'config.php';
 
 $sql = "SELECT * FROM prenotazioni";
 echo '<table>
