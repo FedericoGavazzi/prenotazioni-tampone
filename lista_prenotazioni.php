@@ -1,7 +1,25 @@
 <?php
 
+require ('vendor/autoload.php');
 include_once 'config.php';
 
+use League\Plates\Engine;
+//viene creato l'oggetto engine per la gestione dei template
+$templates = new Engine('./view', 'tpl');
+
+$sql ="SELECT * FROM prenotazioni";
+
+$stmt = $pdo ->query($sql);
+
+$result = $stmt -> fetchAll();
+
+echo $templates -> render('lista_prenotazioni', ['result' => $result]);
+
+
+
+
+
+/*
 $sql = "SELECT * FROM prenotazioni
 WHERE codice_fiscale = :codice_fiscale AND codice_prenotazione = :codice_prenotazione";
 $stmt = $pdo -> prepare($sql);
@@ -31,4 +49,4 @@ while($row = $stmt->fetch(PDO::FETCH_ASSOC)){
           <td>$cod_pren</td>
           </tr>";
 }
-echo '</table>';
+echo '</table>';*/
