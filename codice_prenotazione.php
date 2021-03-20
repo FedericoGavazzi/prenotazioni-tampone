@@ -1,14 +1,20 @@
 <?php
 
 include_once 'config.php';
+include 'phpqrcode/qrlib.php';
+
 $codice_prenotazione = $_GET['codice_prenotazione'];
+$err = $_GET['err'];
+QRcode::png($codice_prenotazione,'qrcode.png' , 1, 4, 2);
+
+
 function back(){
     header('Location:prenota.html');
 }
 
-if($codice_prenotazione != "Numero massimo di prenotazioni raggiunte per questo giorno. Scegli una data diversa")
+if($err != 1)
 echo "<div>Il tuo codice della prenotazione è</div><br>
-      <div><strong>$codice_prenotazione</strong></div><br>
+      <img src='qrcode.png'/> <br>
       <div>ricordati di non perderlo</div>";
 else
     echo "<div><strong>$codice_prenotazione</strong>
