@@ -21,7 +21,7 @@
             <tr>
                 <td><strong><?php echo $row['codice_fiscale'] ?></strong>  </td>
                 <td><?php echo $row['giorno'] ?>  </td>
-                <td><?php echo $row['giorno'] ?> </td>
+                <td><?php echo $row['codice_prenotazione'] ?> </td>
             </tr>
             <?php endforeach ?>
         </tbody>

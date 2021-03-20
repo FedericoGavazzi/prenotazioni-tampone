@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aded7275-d6eb-4dd2-8f1a-2bf18e68f6f8" name="Default Changelist" comment="add configuration&#10;add _POST&#10;add webserver configuration">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/lista_prenotazioni.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prenotazioni_giornaliere.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/prenotazioni_giornaliere.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/cbc0ec27-5258-4ffb-857b-6985e79ced97.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cbc0ec27-5258-4ffb-857b-6985e79ced97.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_prenotazioni.php" beforeDir="false" afterPath="$PROJECT_DIR$/lista_prenotazioni.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/lista_prenotazioni.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/view/lista_prenotazioni.tpl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="codice-pren" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -117,9 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.prenota.php" />
         <item itemvalue="PHP Script.lista_prenotazioni.php" />
         <item itemvalue="HTTP Request.rest-api#1" />
-        <item itemvalue="PHP Script.prenota.php" />
+        <item itemvalue="PHP Script.lista_prenotazioni.php" />
+        <item itemvalue="HTTP Request.rest-api#1" />
       </list>
     </recent_temporary>
   </component>
