@@ -18,16 +18,24 @@ include_once 'config.php';
 //variabili da mettere nella query
 $codice_fiscale = $_POST['codice'];
 $data_scelta = $_POST['giorno'];
+$NUM_MAX = 3;
+$codice_prenotazone = '';
+$err = 0;
+$sql = "SELECT COUNT(*) as giorni FROM prenotazioni WHERE giorno = :data_scelta";
+$sql2 = "INSERT INTO prenotazioni VALUES (null, :codice_fiscale, :giorno, :codice_prenotazione)";
 
-//preset query di inserimento
-$sql = "INSERT INTO prenotazioni VALUES (null, :codice_fiscale, :giorno, :codice_prenotazione)";
-
-//invio query al db che la tiene in attesa
-$stmt = $pdo ->prepare($sql);
-$codice_prenotazone = guidv4();
-//invio i dati concreti
-$stmt -> execute(['codice_fiscale' => $codice_fiscale,
+$stmt = $pdo-> prepare($sql);
+$stmt -> execute(['data_scelta' => $data_scelta]);
+$conteggio = $stmt ->fetchAll(pdo::FETCH_ASSOC);
+if($conteggio[0]['giorni'] >= $NUM_MAX) {
+    $codice_prenotazone = "Numero massimo di prenotazioni raggiunte per questo giorno. Scegli una data diversa";
+    $err = 1;
+} else {
+    $codice_prenotazone = guidv4();
+    $stmt2 = $pdo ->prepare($sql2);
+    $stmt2 -> execute(['codice_fiscale' => $codice_fiscale,
     'giorno' => $data_scelta, 'codice_prenotazione' => $codice_prenotazone]);
+}
 
-header('Location:codice_prenotazione.php?codice_prenotazione='. $codice_prenotazone);
+header('Location:codice_prenotazione.php?codice_prenotazione='.$codice_prenotazone.'&err='. $err);
 exit(0);
