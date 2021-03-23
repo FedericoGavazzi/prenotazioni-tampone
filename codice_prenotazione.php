@@ -13,7 +13,7 @@ function back(){
 }
 
 if($err != 1)
-echo "<div>Il tuo codice della prenotazione è</div><br>
+echo "<div>Il tuo codice della prenotazione è $codice_prenotazione</div><br>
       <img src='qrcode.png'/> <br>
       <div>ricordati di non perderlo</div>";
 else
