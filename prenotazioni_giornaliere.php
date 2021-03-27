@@ -11,5 +11,6 @@ $sql ="SELECT * FROM prenotazioni WHERE giorno = CURDATE()";
 
 $stmt = $pdo ->query($sql);
 
+
 $result = $stmt -> fetchAll();
 echo $templates -> render('prenotazioni_giornaliere', ['result' => $result]);
