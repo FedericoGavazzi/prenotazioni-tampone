@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aded7275-d6eb-4dd2-8f1a-2bf18e68f6f8" name="Default Changelist" comment="add configuration&#10;add _POST&#10;add webserver configuration">
-      <change afterPath="$PROJECT_DIR$/view/main.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/prenota.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/lista_prenotazioni.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/view/lista_prenotazioni.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/prenotazioni_giornaliere.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/view/prenotazioni_giornaliere.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codice_prenotazione.php" beforeDir="false" afterPath="$PROJECT_DIR$/codice_prenotazione.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prenota.html" beforeDir="false" afterPath="$PROJECT_DIR$/prenota_tampone.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prenotazioni_giornaliere.php" beforeDir="false" afterPath="$PROJECT_DIR$/prenotazioni_giornaliere.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="intervallo_tra_2_date" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />

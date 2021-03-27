@@ -9,7 +9,7 @@ QRcode::png($codice_prenotazione,'qrcode.png' , 1, 4, 2);
 
 
 function back(){
-    header('Location:prenota.html');
+    header('Location:prenota_tampone.php');
 }
 
 if($err != 1)
@@ -19,5 +19,5 @@ echo "<div>Il tuo codice della prenotazione è $codice_prenotazione</div><br>
 else
     echo "<div><strong>$codice_prenotazione</strong>
     <br>
-    <a href='prenota.html'><button >Torna alla pagine per prenotare</button></a>
+    <a href='prenota_tampone.php'><button >Torna alla pagine per prenotare</button></a>
     </div>";
