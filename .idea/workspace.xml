@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aded7275-d6eb-4dd2-8f1a-2bf18e68f6f8" name="Default Changelist" comment="add configuration&#10;add _POST&#10;add webserver configuration">
-      <change afterPath="$PROJECT_DIR$/crea_grafico.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/main.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prenotazioni_per_date.php" beforeDir="false" afterPath="$PROJECT_DIR$/prenotazioni_per_date.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/prenotazioni_per_date.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/view/prenotazioni_per_date.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/lista_prenotazioni.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/view/lista_prenotazioni.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/prenotazioni_giornaliere.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/view/prenotazioni_giornaliere.tpl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="intervallo_tra_2_date" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,7 +47,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/view" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,6 +55,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\cose da desktop\Info\prenotazioni\view" />
+    </key>
   </component>
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
@@ -144,7 +149,8 @@
       <workItem from="1615622556508" duration="2159000" />
       <workItem from="1615888957172" duration="5527000" />
       <workItem from="1616769571548" duration="359000" />
-      <workItem from="1616769982520" duration="2762000" />
+      <workItem from="1616769982520" duration="2975000" />
+      <workItem from="1616833494674" duration="1656000" />
     </task>
     <task id="LOCAL-00001" summary="creato file">
       <created>1615023744267</created>
@@ -272,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616496502245</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add chart">
+      <created>1616775597386</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1616775597386</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,6 +322,7 @@
     <MESSAGE value="add prenotazi giornaliere" />
     <MESSAGE value="add numero massimo di prenotazioni al giorno" />
     <MESSAGE value="add prenotazioni tra 2 date" />
-    <option name="LAST_COMMIT_MESSAGE" value="add prenotazioni tra 2 date" />
+    <MESSAGE value="add chart" />
+    <option name="LAST_COMMIT_MESSAGE" value="add chart" />
   </component>
 </project>

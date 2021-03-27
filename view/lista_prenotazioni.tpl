@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Prenotazioni</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mini.css/3.0.1/mini-default.min.css">
-</head>
-<body>
-    <h1>Portale prenotazioni</h1>
+<?php this -> layout('main', ['argomento'=> 'Lista delle prenotazioni']); ?>
     <table>
         <caption>Lista prenotazioni</caption>
         <thead>
@@ -26,5 +18,3 @@
             <?php endforeach ?>
         </tbody>
     </table>
-</body>
-</html>
