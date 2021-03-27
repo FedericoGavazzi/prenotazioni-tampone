@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aded7275-d6eb-4dd2-8f1a-2bf18e68f6f8" name="Default Changelist" comment="add configuration&#10;add _POST&#10;add webserver configuration">
-      <change afterPath="$PROJECT_DIR$/view/prenota.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codice_prenotazione.php" beforeDir="false" afterPath="$PROJECT_DIR$/codice_prenotazione.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prenota.html" beforeDir="false" afterPath="$PROJECT_DIR$/prenota_tampone.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prenotazioni_giornaliere.php" beforeDir="false" afterPath="$PROJECT_DIR$/prenotazioni_giornaliere.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prenota_tampone.php" beforeDir="false" afterPath="$PROJECT_DIR$/prenota_tampone.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/main.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/view/main.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/prenota.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/view/prenota.tpl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -286,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616775597386</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add limiti per le prenotazioni del tampone">
+      <created>1616842225367</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1616842225367</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,6 +330,7 @@
     <MESSAGE value="add numero massimo di prenotazioni al giorno" />
     <MESSAGE value="add prenotazioni tra 2 date" />
     <MESSAGE value="add chart" />
-    <option name="LAST_COMMIT_MESSAGE" value="add chart" />
+    <MESSAGE value="add limiti per le prenotazioni del tampone" />
+    <option name="LAST_COMMIT_MESSAGE" value="add limiti per le prenotazioni del tampone" />
   </component>
 </project>
