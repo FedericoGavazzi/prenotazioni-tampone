@@ -17,4 +17,3 @@
 
 </body>
 </html>
-<!-- <?= stampa le cose al posto di scrivere php echo -->
