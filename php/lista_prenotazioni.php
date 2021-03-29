@@ -1,11 +1,11 @@
 <?php
 
-require ('vendor/autoload.php');
+require('../vendor/autoload.php');
 include_once 'config.php';
 
 use League\Plates\Engine;
 //viene creato l'oggetto engine per la gestione dei template
-$templates = new Engine('./view', 'tpl');
+$templates = new Engine('../view', 'tpl');
 
 $sql ="SELECT * FROM prenotazioni";
 

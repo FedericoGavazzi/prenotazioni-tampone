@@ -1,4 +1,4 @@
-<?php this -> layout('main', ['argomento'=> 'Portale prenotazioni']); ?>
+<?php $this -> layout('main', ['argomento'=> 'Portale prenotazioni']); ?>
 
 <form action="prenota.php" method="post">
     <fieldset>

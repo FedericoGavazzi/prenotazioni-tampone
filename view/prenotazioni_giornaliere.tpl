@@ -1,4 +1,4 @@
-<?php $this -> layout('main', ['argomento'=>'Lista prenotazioni giornaliere'] ?>
+<?php $this -> layout('main', ['argomento'=>'Lista prenotazioni giornaliere']) ?>
 <h1>Portale prenotazioni</h1>
 <table>
     <caption>Lista prenotazioni <?php echo date("d/m/Y"); ?></caption>
