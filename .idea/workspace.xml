@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aded7275-d6eb-4dd2-8f1a-2bf18e68f6f8" name="Default Changelist" comment="add configuration&#10;add _POST&#10;add webserver configuration">
-      <change afterPath="$PROJECT_DIR$/view/main.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/lista_prenotazioni.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lista_prenotazioni.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/prenota_tampone.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/prenota_tampone.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/prenotazioni_giornaliere.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/prenotazioni_giornaliere.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/lista_prenotazioni.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/view/lista_prenotazioni.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/main.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/view/main.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/prenota.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/view/prenota.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/prenotazioni_giornaliere.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/view/prenotazioni_giornaliere.tpl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="intervallo_tra_2_date" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,6 +63,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\cose da desktop\Info\prenotazioni\view" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\cose da desktop\Info\prenotazioni\php" />
+      <recent name="D:\cose da desktop\Info\prenotazioni\html" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -103,7 +111,7 @@
     <configuration name="rest-api#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="lista_prenotazioni.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/lista_prenotazioni.php">
+    <configuration name="lista_prenotazioni.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/php/lista_prenotazioni.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
           <option name="interpreterName" value="PHP 7.4.10" />
@@ -111,7 +119,7 @@
       </CommandLine>
       <method v="2" />
     </configuration>
-    <configuration name="prenota.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/prenota.php">
+    <configuration name="prenota.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/php/prenota.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
           <option name="interpreterName" value="PHP 7.4.10" />
@@ -285,7 +293,21 @@
       <option name="project" value="LOCAL" />
       <updated>1616775597386</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="riorganizzazione progetto">
+      <created>1617038477975</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1617038477975</updated>
+    </task>
+    <task id="LOCAL-00021" summary="riorganizzazione progetto corretti errori">
+      <created>1617038600343</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1617038600343</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,6 +345,8 @@
     <MESSAGE value="add numero massimo di prenotazioni al giorno" />
     <MESSAGE value="add prenotazioni tra 2 date" />
     <MESSAGE value="add chart" />
-    <option name="LAST_COMMIT_MESSAGE" value="add chart" />
+    <MESSAGE value="riorganizzazione progetto" />
+    <MESSAGE value="riorganizzazione progetto corretti errori" />
+    <option name="LAST_COMMIT_MESSAGE" value="riorganizzazione progetto corretti errori" />
   </component>
 </project>

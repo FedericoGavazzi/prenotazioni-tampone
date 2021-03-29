@@ -1,4 +1,4 @@
-<?php this -> layout('main', ['argomento'=> 'Lista delle prenotazioni']); ?>
+<?php $this->layout('main', ['argomento'=> 'Lista delle prenotazioni']); ?>
     <table>
         <caption>Lista prenotazioni</caption>
         <thead>
