@@ -1124,7 +1124,17 @@
       <DataType>varchar(200)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="356" parent="351" name="PRIMARY">
+    <column id="356" parent="351" name="eseguito">
+      <Position>5</Position>
+      <DataType>tinyint(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="357" parent="351" name="note">
+      <Position>6</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <key id="358" parent="351" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
