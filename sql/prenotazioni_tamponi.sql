@@ -26,9 +26,11 @@ CREATE TABLE `prenotazioni` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `codice_fiscale` varchar(16) NOT NULL,
   `giorno` date NOT NULL,
-  `codice_prenotazione` int(11) NOT NULL,
+  `codice_prenotazione` varchar(200) NOT NULL,
+  `eseguito` tinyint(1) NOT NULL DEFAULT 0,
+  `note` text DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=38 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -37,7 +39,7 @@ CREATE TABLE `prenotazioni` (
 
 LOCK TABLES `prenotazioni` WRITE;
 /*!40000 ALTER TABLE `prenotazioni` DISABLE KEYS */;
-INSERT INTO `prenotazioni` VALUES (1,'BGTLSN71H19B157G','2021-01-01',10525154),(4,'hgbf','2021-02-08',555632),(5,'hgbf','2021-02-08',746767),(6,'eccoilcod','2021-01-29',3543134),(7,'sad','2021-03-03',67796),(12,'nuovocodice','2021-01-15',84453),(13,'COD394FJFJ334','2020-03-13',1),(14,'Cfffe334','2020-03-13',2),(15,'testadata','2021-03-18',33),(16,'testadata2','2021-03-03',6),(17,'testcodicepren','2021-03-02',946570);
+INSERT INTO `prenotazioni` VALUES (18,'oggi20','2021-03-20','1df4de15-fafa-48a4-9a31-46f944bbe980',0,NULL),(19,'sempreoggi20','2021-03-20','f2e3d6f5-ad50-4f4e-aed8-3d89b41038af',0,NULL),(20,'edewfwfewf666','2021-03-20','cb1e6687-6c93-4af2-b55f-7ddba5cdca84',0,NULL),(21,'HAHAHva','2021-03-20','3adbabb6-1c0e-4f21-bc3e-24c9181d1c33',0,NULL),(22,'HAHAHvasda','2021-03-20','e66718f7-99c5-44db-81ab-08f11da3a729',0,NULL),(23,'HAHAHff','2021-03-20','0f1aef1b-9c2a-4c3b-9993-6592ec46bf6b',0,NULL),(24,'giornodioggi','2021-03-20','baf89354-2ad4-4265-9364-5d126393612e',0,NULL),(30,'giornodioggi2222','2021-03-16','327142df-b0d8-4b47-ad96-11c7df14cb3b',0,NULL),(31,'aaaaaaaaaa','2021-03-04','abfe6d86-f36c-4883-860c-5fb09e7404de',0,NULL),(32,'ennesimotest','2021-03-14','ceee5403-3284-4e51-a735-e9b69a01f4ce',0,NULL),(33,'wwwwwww','2021-03-27','92ee2ab2-1dbf-4f32-b84e-dbae9d0c59e7',0,NULL),(34,'dddddd','2021-03-23','90c342b0-368e-4d1b-abc9-41b855663a1d',0,NULL),(35,'vvvvv','2021-03-19','6517f150-0790-464b-98f5-048850954d98',0,NULL),(36,'','2021-03-27','a9339a06-33fa-4541-ad5e-e5f601a41f71',0,NULL),(37,'mmmmmm','2021-03-27','84228635-1d98-4797-bdcf-20d70d80d89f',1,'tampone eseguito per prova');
 /*!40000 ALTER TABLE `prenotazioni` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-03-13 11:31:57
+-- Dump completed on 2021-03-30 11:02:11
