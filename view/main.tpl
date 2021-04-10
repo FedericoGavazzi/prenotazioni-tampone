@@ -13,7 +13,6 @@
     <a href="../html/seleziona_date.html" class="button">Prenotazioni tra 2 date</a>
     <a href="../html/esegui_tampone.html" class="button">Registra tampone</a>
 </header>
-
    <?= $this -> section('content'); ?>
 
 

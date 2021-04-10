@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aded7275-d6eb-4dd2-8f1a-2bf18e68f6f8" name="Default Changelist" comment="add configuration&#10;add _POST&#10;add webserver configuration">
-      <change afterPath="$PROJECT_DIR$/html/annulla_prenotazione.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/annulla_prenotazione.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/signup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/signup_success.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/cbc0ec27-5258-4ffb-857b-6985e79ced97.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cbc0ec27-5258-4ffb-857b-6985e79ced97.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/main.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/view/main.tpl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
