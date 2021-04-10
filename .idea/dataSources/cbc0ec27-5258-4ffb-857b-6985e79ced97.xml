@@ -1134,7 +1134,13 @@
       <Position>6</Position>
       <DataType>text|0s</DataType>
     </column>
-    <key id="358" parent="351" name="PRIMARY">
+    <column id="358" parent="351" name="annullato">
+      <Position>7</Position>
+      <DataType>tinyint(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <key id="359" parent="351" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>

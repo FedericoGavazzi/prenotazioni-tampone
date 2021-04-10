@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Prenotazioni</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mini.css/3.0.1/mini-default.min.css">
+</head>
+<body>
+
+<header>
+    <a href="../php/prenota_tampone.php" class="logo">Portale prenotazioni</a>
+    <a href="../html/verifica_prenotazione.html" class="button">Verifica prenotazione</a>
+    <a href="../html/annulla_prenotazione.html" class="button">Elimina prenotazione</a>
+    <a href="../php/prenotazioni_giornaliere.php" class="button">Prenotazioni giornaliere</a>
+    <a href="../html/seleziona_date.html" class="button">Prenotazioni tra 2 date</a>
+    <a href="../html/esegui_tampone.html" class="button">Registra tampone</a>
+</header>
+
+<h1>Esegui tampone</h1>
+<p>Inserisci il codice della prenotazione</p>
+<form action="../php/annulla_prenotazione.php" method="post">
+    <fieldset>
+        <legend>Inserisci le informazioni</legend>
+        <label for="codice">Codice prenotazione</label>
+        <input type="text" id="codice" placeholder="Codice prenotazione" name="codice_prenotazione">
+        <input type="submit" value="Registra il tampone">
+    </fieldset>
+</form>
+
+
+</body>
+</html>
