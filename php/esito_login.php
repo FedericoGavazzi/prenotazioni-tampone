@@ -21,10 +21,11 @@ if($riga === false){
 } else {
     $pass_hash = $riga['password'];
     if(password_verify($password, $pass_hash)){
-        echo $templates -> render('login_avvenuto',[]);
+        $_SESSION['usurname'] = $usurname;
+        echo $templates -> render('login_avvenuto',['usurname'=>$usurname]);
     } else {
         echo $templates -> render('login_fallito',['usurname'=>$usurname]);
     }
 }
 
-$templates->render();
+$templates->render('utente_non_autorizzato');

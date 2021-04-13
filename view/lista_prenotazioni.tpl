@@ -1,4 +1,5 @@
 <?php $this->layout('main', ['argomento'=> 'Lista delle prenotazioni']); ?>
+    <h1>Ciao <?= $usurname ?></h1>
     <table>
         <caption>Lista prenotazioni</caption>
         <thead>

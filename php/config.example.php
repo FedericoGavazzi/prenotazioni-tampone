@@ -12,3 +12,5 @@ $pass = 'password';
 
 $dsn = 'mysql:host='.$host.';dbname='.$db;
 $pdo = new PDO($dsn, $user, $pass);
+$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPT);
+session_start();
