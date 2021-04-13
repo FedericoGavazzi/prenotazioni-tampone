@@ -12,5 +12,9 @@ $sql ="SELECT * FROM prenotazioni WHERE annullato = 0";
 $stmt = $pdo ->query($sql);
 
 $result = $stmt -> fetchAll();
+if(isset($_SESSION['usurname'])) {
+    $usurname = $_SESSION['usurname'];
 
-echo $templates -> render('lista_prenotazioni', ['result' => $result]);
+
+    echo $templates->render('lista_prenotazioni', ['result' => $result, 'usurname' => $usurname]);
+}
