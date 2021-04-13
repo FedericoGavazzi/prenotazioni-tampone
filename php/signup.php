@@ -18,7 +18,7 @@ if($password === $conferma_password){
     $stmt->execute(['usurname'=>$usurname,'password'=>password_hash($password, PASSWORD_DEFAULT)]);
     $result = ['message'=>'Registrazione avvenuta con successo'];
 
-    $templates->render('../view/signup_success', $result);
+    echo $templates->render('../view/signup_success', $result);
 } else {
     //$templates->render();
 }
