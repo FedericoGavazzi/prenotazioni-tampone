@@ -14,8 +14,6 @@
     <a href="../html/esegui_tampone.html" class="button">Registra tampone</a>
 </header>
 
-   <?= $this -> section('content'); ?>
-
-
+   <?= $this->section('content') ?>
 </body>
 </html>
