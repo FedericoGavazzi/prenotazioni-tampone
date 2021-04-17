@@ -12,6 +12,9 @@
     <a href="../php/prenotazioni_giornaliere.php" class="button">Prenotazioni giornaliere</a>
     <a href="../html/seleziona_date.html" class="button">Prenotazioni tra 2 date</a>
     <a href="../html/esegui_tampone.html" class="button">Registra tampone</a>
+    <?php if(isset($_SESSION['usurname'])): ?>
+        Ciao <?= $_SESSION['usurname']?> - <a href="../php/logout.php">Logout</a>
+    <?php endif; ?>
 </header>
 
    <?= $this->section('content') ?>
